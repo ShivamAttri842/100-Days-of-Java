@@ -1,0 +1,31 @@
+The Scanner class in Java is a simple tool used to get input from the user, like typing from the keyboard.
+
+How it works:
+Creating a Scanner: You create a Scanner object to start reading input.
+
+Scanner sc = new Scanner(System.in);
+System.in means you're reading input from the keyboard.
+Reading Input: You can use different methods to read different types of input:
+
+nextInt()       to read an integer.
+nextLine()      to read a full line of text.
+nextFloat()     to read a decimal number.
+
+
+Example: In your code:
+
+Scanner sc = new Scanner(System.in);    creates the scanner to take input from the keyboard.
+int a = sc.nextInt();                   waits for the user to type an integer.
+System.out.println(a);                  prints the number the user typed.
+
+
+Closing the Scanner:                    After you're done, you should close the scanner:
+sc.close();
+
+Simple Example:
+
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter your age: ");
+int age = sc.nextInt();
+System.out.println("You are " + age + " years old.");
+sc.close();

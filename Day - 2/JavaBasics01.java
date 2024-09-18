@@ -6,5 +6,6 @@ public class JavaBasics01 {
         System.out.println("Enter an Integer: ");
         int a = sc.nextInt();
         System.out.println(a);
+        sc.close();
     }
 }
