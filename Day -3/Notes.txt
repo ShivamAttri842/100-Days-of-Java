@@ -1,0 +1,55 @@
+1. Arithmetic Operators:
+Definition: Used to perform basic mathematical operations.
+
+Operators:
+
++ (Addition): Adds two operands.
+- (Subtraction): Subtracts the right operand from the left operand.
+* (Multiplication): Multiplies two operands.
+/ (Division): Divides the left operand by the right operand.
+% (Modulus): Returns the remainder of division.
+
+
+
+
+2. Unary Operators:
+Definition: Operators that operate on only one operand.
+
+Operators:
+
++ (Unary plus): Represents a positive value.
+- (Unary minus): Negates a value (changes the sign).
+++ (Increment): Increases the value of the operand by 1.
+Prefix (++a): Increments first, then uses the value.
+Postfix (a++): Uses the value first, then increments.
+-- (Decrement): Decreases the value of the operand by 1.
+Prefix (--a): Decrements first, then uses the value.
+Postfix (a--): Uses the value first, then decrements.
+! (Logical NOT): Inverts a boolean value.
+
+
+
+
+3. Relational Operators:
+Definition: Used to compare two values and determine the relationship between them.
+
+Operators:
+
+== (Equal to): Returns true if both operands are equal.
+!= (Not equal to): Returns true if operands are not equal.
+> (Greater than): Returns true if the left operand is greater than the right.
+< (Less than): Returns true if the left operand is less than the right.
+>= (Greater than or equal to): Returns true if the left operand is greater than or equal to the right.
+<= (Less than or equal to): Returns true if the left operand is less than or equal to the right.
+
+
+
+
+4. Logical Operators:
+Definition: Used to perform logical operations on boolean expressions.
+
+Operators:
+
+&& (Logical AND): Returns true if both operands are true.
+|| (Logical OR): Returns true if at least one operand is true.
+! (Logical NOT): Inverts the boolean value.
