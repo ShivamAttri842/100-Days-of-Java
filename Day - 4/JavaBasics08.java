@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class JavaBasics08 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Menu:");
         System.out.println("1. Pizza - $10");
@@ -11,7 +11,7 @@ public class JavaBasics08 {
         System.out.println("4. Salad - $6");
 
         System.out.print("Please select an item (1-4): ");
-        int choice = scanner.nextInt();
+        int choice = sc.nextInt();
 
         switch (choice) {
             case 1:
@@ -30,6 +30,6 @@ public class JavaBasics08 {
                 System.out.println("Invalid choice. Please select a valid menu item.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
