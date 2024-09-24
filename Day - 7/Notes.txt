@@ -1,0 +1,38 @@
+Functions
+Block of code / Reusable part of Code...
+
+
+Syntax of writing fuction in a code
+
+returnType name(){
+    //body
+    return statement;
+}
+
+
+Syntax of writing fuction using parameters in a code
+
+returnType name(type param1, type param2){
+    //body
+    return statement;
+}
+
+
+Parameters or formal parameters
+Those values which we use when we define any function other than main function...
+For example
+        public static void Sum(int num1, int num2)
+        Here
+            int num1, int num2 are parameters 
+
+Arguments or actual parameters
+Those values which we use when we call the function in the main function...
+For example
+        Sum(a, b);
+        Here
+            a, b are arguments or actual parameters
+
+
+Call by value
+Java always call by value
+It means that any change in function(Other than main function) does not affect the change in main function...
