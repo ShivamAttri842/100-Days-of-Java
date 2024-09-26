@@ -12,7 +12,7 @@ public class Array05 {
 
         int[][] matrix = new int[rows][columns];
 
-        System.out.println("Enter the elements of the 2D array:");
+        System.out.println("Enter the elements of the array:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 System.out.print("Element at [" + i + "][" + j + "]: ");
